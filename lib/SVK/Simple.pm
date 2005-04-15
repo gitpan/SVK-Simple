@@ -3,14 +3,13 @@ use Spiffy -Base;
 use SVK;
 use SVK::XD;
 use SVK::Util qw(get_anchor catfile catdir);
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 field 'output';
 field svk => -init => '$self->load_svk';
 
 sub new {
-    $self = bless {};
-    super(@_);
+    $self = super(@_);
     return $self->svk;
 }
 

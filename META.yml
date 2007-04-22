@@ -1,15 +1,16 @@
-name: SVK-Simple
-version: 0.02
 abstract: Simple SVK object loader
 author: Kang-min Liu <gugod@gugod.org>
-license: perl
-distribution_type: module
-build_requires:
+build_requires: 
   Test::More: 0
-requires:
-  Spiffy: 0
-  SVK: 0.30
-no_index:
-  directory:
+distribution_type: module
+generated_by: Module::Install version 0.64
+license: perl
+name: SVK-Simple
+no_index: 
+  directory: 
     - inc
-generated_by: Module::Install version 0.36
+    - t
+requires: 
+  Class::Field: 0.12
+  SVK: 0.30
+version: 0.03

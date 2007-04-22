@@ -6,8 +6,8 @@ author          ('Kang-min Liu <gugod@gugod.org>');
 license         ('perl');
 version_from    ('lib/SVK/Simple.pm');
 requires        (qw(
-    Spiffy 0
-    SVK 0.30
+    Class::Field 0.12
+    SVK          0.30
 ));
 
 build_requires  ('Test::More');
